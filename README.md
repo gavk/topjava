@@ -1,5 +1,5 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c9780f030a304ad194aa69f75d3dec15)](https://www.codacy.com/gh/JavaWebinar/topjava/dashboard)
-[![Build Status](https://api.travis-ci.com/JavaWebinar/topjava.svg?branch=master)](https://travis-ci.com/JavaWebinar/topjava)
+[![Build Status](https://api.travis-ci.com/gavk/topjava.svg)](https://travis-ci.com/gavk/topjava)
 
 Java Enterprise Online Project
 ===============================
