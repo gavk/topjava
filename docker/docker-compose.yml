@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  db:
+    env_file:
+      - postgres.env
+    container_name: ${POSTGRES_CONTAINER_NAME}
+    image: postgres:${POSTGRES_TAG}
+    restart: "no"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./data:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
